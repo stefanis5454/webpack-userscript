@@ -1,3 +1,6 @@
+export default function() {
+  alert("Module loaded (export default)!");
+}
 export function hi() {
   alert(`Hello`);
 }
