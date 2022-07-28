@@ -20,15 +20,15 @@
         // say.hi(); // Hello!
         // say.bye(); // Bye!
         // say.default(); // Module loaded (export default)!
-        let mod = await import('./echarts11.js')
+        let mod = await import('https://cdn.jsdelivr.net/npm/echarts@5.3.3/dist/echarts.min.js')
         console.debug('loaded')
         
-        // echarts.hi()
-        console.debug(mod)
-        // console.debug(dt.hi())
-        const echarts = mod.getEcharts()
+        // // echarts.hi()
+        // console.debug(mod)
+        // // console.debug(dt.hi())
+        // const echarts = mod.getEcharts()
         
-        console.debug(echarts)
+        // console.debug(echarts)
         
 
         // console.debug(global.echarts)
